@@ -1,0 +1,55 @@
+type Settled {
+  id: ID!
+  orderHash: String! @index
+  swapper: String! @index
+  exchange: String!
+  inToken: String!
+  outToken: String!
+  inAmount: BigInt!
+  outAmount: BigInt!
+  minOut: BigInt!
+  chainId: Int! @index
+  blockNumber: Int!
+  blockTimestamp: Int!
+  transactionHash: String!
+  logIndex: Int!
+}
+
+type Fill {
+  id: ID!
+  hash: String! @index
+  executor: String! @index
+  swapper: String! @index
+  epoch: BigInt!
+  chainId: Int! @index
+  blockNumber: Int!
+  blockTimestamp: Int!
+  transactionHash: String!
+  logIndex: Int!
+}
+
+type Spend {
+  id: ID!
+  signer: String! @index
+  permitHash: String! @index
+  token: String! @index
+  to: String!
+  amount: BigInt!
+  totalSpent: BigInt!
+  chainId: Int! @index
+  blockNumber: Int!
+  blockTimestamp: Int!
+  transactionHash: String!
+  logIndex: Int!
+}
+
+type Cancel {
+  id: ID!
+  signer: String! @index
+  digest: String!
+  chainId: Int! @index
+  blockNumber: Int!
+  blockTimestamp: Int!
+  transactionHash: String!
+  logIndex: Int!
+}

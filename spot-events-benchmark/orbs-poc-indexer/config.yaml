@@ -1,0 +1,138 @@
+# yaml-language-server: $schema=./node_modules/envio/evm.schema.json
+name: orbs-indexer
+description: Orbs Protocol Indexer - Settled, Fill, Spend, Cancel events
+field_selection:
+  transaction_fields:
+    - hash
+contracts:
+  - name: Executor
+    events:
+      - event: "Settled(bytes32 indexed orderHash, address indexed swapper, address indexed exchange, address inToken, address outToken, uint256 inAmount, uint256 outAmount, uint256 minOut)"
+  - name: OrderReactor
+    events:
+      - event: "Fill(bytes32 indexed hash, address indexed executor, address indexed swapper, uint256 epoch)"
+  - name: RePermit
+    events:
+      - event: "Spend(address indexed signer, bytes32 indexed permitHash, address indexed token, address to, uint256 amount, uint256 totalSpent)"
+      - event: "Cancel(address indexed signer, bytes32 digest)"
+chains:
+  - id: 1 # Ethereum
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 56 # BSC
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 137 # Polygon
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 8453 # Base
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 42161 # Arbitrum
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 43114 # Avalanche
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 59144 # Linea
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 146 # Sonic
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 1329 # Sei
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 14 # Flare
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 80094 # Berachain
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  - id: 143 # Monad
+    start_block: 0
+    contracts:
+      - name: Executor
+        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+      - name: OrderReactor
+        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+      - name: RePermit
+        address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
+  # - id: 747474 # Katana (no HyperSync - requires RPC)
+  #   start_block: 0
+  #   rpc:
+  #     url: ${ENVIO_KATANA_RPC_URL:- https://rpc.katana.network}
+  #     for: sync
+  #   contracts:
+  #     - name: Executor
+  #       address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+  #     - name: OrderReactor
+  #       address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+  #     - name: RePermit
+  #       address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
