@@ -3,13 +3,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "patch-envio-deps": "node scripts/patch-envio-deps.mjs",
-    "predev": "pnpm patch-envio-deps",
     "codegen": "envio codegen",
     "dev": "envio dev",
-    "prestart": "pnpm patch-envio-deps",
     "start": "envio start",
-    "subscribe:events": "node scripts/subscribe-events.mjs",
     "test": "vitest run --test-timeout=10000"
   },
   "devDependencies": {
