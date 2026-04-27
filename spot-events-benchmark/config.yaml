@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./node_modules/envio/evm.schema.json
 name: orbs-indexer
-description: Orbs Protocol Indexer - Settled, Fill, Spend, Cancel events
+description: Orbs Protocol Indexer - Settled, Fill, Spend, Cancel, Surplus events
 field_selection:
   transaction_fields:
     - hash
@@ -8,6 +8,7 @@ contracts:
   - name: Executor
     events:
       - event: "Settled(bytes32 indexed orderHash, address indexed swapper, address indexed exchange, address inToken, address outToken, uint256 inAmount, uint256 outAmount, uint256 minOut)"
+      - event: "Surplus(address indexed ref, address indexed swapper, address token, uint256 amount, uint256 refshare)"
   - name: OrderReactor
     events:
       - event: "Fill(bytes32 indexed hash, address indexed executor, address indexed swapper, uint256 epoch)"

@@ -53,3 +53,17 @@ type Cancel {
   transactionHash: String!
   logIndex: Int!
 }
+
+type Surplus {
+  id: ID!
+  ref: String! @index
+  swapper: String! @index
+  token: String! @index
+  amount: BigInt!
+  refshare: BigInt!
+  chainId: Int! @index
+  blockNumber: Int!
+  blockTimestamp: Int!
+  transactionHash: String!
+  logIndex: Int!
+}
