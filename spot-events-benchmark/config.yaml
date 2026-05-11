@@ -21,108 +21,156 @@ chains:
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 56 # BSC
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 137 # Polygon
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 8453 # Base
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 42161 # Arbitrum
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 43114 # Avalanche
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 59144 # Linea
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 146 # Sonic
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 1329 # Sei
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 14 # Flare
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 80094 # Berachain
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   - id: 143 # Monad
     start_block: 0
     contracts:
       - name: Executor
-        address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+        address:
+          - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+          - 0x000642A0966d9bd49870D9519f76b5cf823f3000
       - name: OrderReactor
-        address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+        address:
+          - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+          - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
       - name: RePermit
         address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
   # - id: 747474 # Katana (no HyperSync - requires RPC)
@@ -132,8 +180,12 @@ chains:
   #     for: sync
   #   contracts:
   #     - name: Executor
-  #       address: 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+  #       address:
+  #         - 0x000eBA869d76C618ddc4A6D685A0820A620Ce002
+  #         - 0x000642A0966d9bd49870D9519f76b5cf823f3000
   #     - name: OrderReactor
-  #       address: 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+  #       address:
+  #         - 0x0006a959430e8fBB858D81B2D1140B0ae5c26001
+  #         - 0x000000b33fE4fB9d999Dd684F79b110731c3d000
   #     - name: RePermit
   #       address: 0x00002a9C4D9497df5Bd31768eC5d30eEf5405000
